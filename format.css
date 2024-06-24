@@ -7,7 +7,6 @@ html{
 }
 
 *  {
-	border: 1px solid red;
     overflow: hidden; 
     -webkit-box-sizing: border-box; 
     -moz-box-sizing: border-box;
@@ -41,13 +40,13 @@ header{
     width: 50%;
     display: flex;
     flex-direction: row;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
     align-content: center;
 }
 
 .tester{
-    margin: 10px; 
+    margin: auto; 
     cursor: pointer;
 
 }
@@ -92,9 +91,9 @@ header{
 
 .crying{
     margin: auto; 
-    width: 50%; 
+    width: 75%; 
     padding: 10px;
-    margin-top: 50px;
+    margin-top: 75px;
 }
 
 .title{
@@ -120,13 +119,17 @@ header{
 }
 
 .box{
-    border: 1px solid #3882F6;
+    border: 2px solid #3882F6;
     padding: 50px;
     margin: 10px;
+    height: 60%;
+    border-radius: 10px;
 }
 
 .sub{
     color: grey;
+    text-align: center;
+    margin: 10px;
 }
 
 .middle{
@@ -135,6 +138,27 @@ header{
     color: #1F2937;
     font-style: italic;
     font-weight: 50;
+    text-align: justify;
+    margin: auto;
+}
+
+.quote{
+    font-size: 36px; 
+    font-weight: 20; 
+    color: #1F2937;
+    text-align: left;
+    margin: 75px 150px 0px 150px;
+    font-weight: lighter;
+}
+
+.quote1{
+    font-size: 36px; 
+    font-weight: 50; 
+    color: #1F2937;
+    text-align: right;
+    font-weight: bold; 
+    margin: 0px 150px;
+    margin-bottom: 75px;
 }
 
 .bluey{
@@ -142,12 +166,40 @@ header{
     color: #F9FAF8;
     display: flex;
     flex-direction: row;
+    width: 85%; 
+    margin: 75px;
+    border-radius: 5px; 
+    padding: 10px;
 }
 
 .signer{
     color:#F9FAF8;
     background-color: #3882F6;
     border: 1px solid #F9FAF8;
+    border-radius: 5px; 
+    width: 50%; 
+}
+
+.x{
+    width: 75%; 
+    text-align: left;
+    margin-left: 50px; 
+}
+
+.z{ 
+    margin-top: 25px; 
+    margin-bottom: 0px;
+}
+
+.a{
+    margin-top: 0px; 
+    margin-bottom: 25px; 
+}
+
+.y{
+    width: 25%;
+    margin: auto; 
+    text-align: center;  
 }
 
 footer{
